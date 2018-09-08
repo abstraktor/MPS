@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$APPLICATION_HOME_DIR$/languages/baseLanguage/checkDot/languages/checkedDots/jetbrains.mps.baseLanguage.checkedDots.mpl" folder="" />
+      <modulePath path="$APPLICATION_HOME_DIR$/languages/baseLanguage/checkDot/languages/checkedDots/sandbox/jetbrains.mps.baseLanguage.checkedDots.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.baseLanguage.checkedDots.testLanguage/jetbrains.mps.baseLanguage.checkedDots.testLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.checkedDots.testLanguage.test/jetbrains.mps.baseLanguage.checkedDots.testLanguage.test.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
