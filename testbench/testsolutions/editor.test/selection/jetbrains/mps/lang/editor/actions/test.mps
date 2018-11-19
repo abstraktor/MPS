@@ -303,11 +303,11 @@
       <concept id="2943053183528026474" name="jetbrains.mps.lang.editor.editorTest.structure.ISpecialDelTestConcreteChild" flags="ng" index="J$D8H" />
       <concept id="2943053183527886798" name="jetbrains.mps.lang.editor.editorTest.structure.IDelTestConcreteChild" flags="ng" index="J_cM9" />
       <concept id="2943053183527886797" name="jetbrains.mps.lang.editor.editorTest.structure.IDelTestChild" flags="ng" index="J_cMa" />
-      <concept id="4394123642851271744" name="jetbrains.mps.lang.editor.editorTest.structure.SubstTestSmartAbstractRefChild" flags="ng" index="NGbhG">
+      <concept id="4394123642851271744" name="jetbrains.mps.lang.editor.editorTest.structure.SubstTestSmartAbstractRef" flags="ng" index="NGbhG">
         <reference id="4394123642851271763" name="target" index="NGbhZ" />
       </concept>
       <concept id="4394123642851468867" name="jetbrains.mps.lang.editor.editorTest.structure.SubstTestSmartInterfaceRef1" flags="ng" index="NHrpJ" />
-      <concept id="4394123642850746178" name="jetbrains.mps.lang.editor.editorTest.structure.SubstTestSmartInterfaceRefChild" flags="ng" index="NI8XI">
+      <concept id="4394123642850746178" name="jetbrains.mps.lang.editor.editorTest.structure.SubstTestSmartInterfaceRef" flags="ng" index="NI8XI">
         <reference id="4394123642850976683" name="target" index="NJ3e7" />
       </concept>
       <concept id="4394123642850748702" name="jetbrains.mps.lang.editor.editorTest.structure.SubstTestSmartAbstractRef1" flags="ng" index="NIb$M" />
@@ -364,6 +364,9 @@
       <concept id="7892258307225609681" name="jetbrains.mps.lang.editor.editorTest.structure.SubstInterfaceTestRoot" flags="ng" index="3wi0Fc">
         <child id="4394123642851469183" name="smartAbstractRefChild" index="NHrtj" />
         <child id="4394123642850748689" name="smartInterfaceRefChild" index="NIb$X" />
+        <child id="6551701070978711956" name="smartInterfaceRefChild3" index="SPX3X" />
+        <child id="6551701070978711584" name="smartInterfaceRefChild2" index="SPX59" />
+        <child id="6551701070978712329" name="smartAbstractRefChild2" index="SPX9w" />
       </concept>
       <concept id="8820932044744203687" name="jetbrains.mps.lang.editor.editorTest.structure.DelTestChildReferenceContainer" flags="ng" index="3wJadi">
         <child id="6528040262366823044" name="childToReference" index="1fiG2c" />
@@ -9553,7 +9556,7 @@
       </node>
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOmtZ" role="LiRBU">
-      <node concept="LIFWc" id="6Q6VLQdOmvx" role="lGtFl">
+      <node concept="LIFWc" id="5FGkm_yhfSf" role="lGtFl">
         <property role="ZRATv" value="true" />
         <property role="OXtK3" value="true" />
         <property role="p6zMq" value="0" />
@@ -9585,7 +9588,7 @@
       <node concept="3clFbH" id="3NV42Kfkq9o" role="3cqZAp" />
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOmbu" role="LiRBU">
-      <node concept="LIFWc" id="6Q6VLQdOmrM" role="lGtFl">
+      <node concept="LIFWc" id="5FGkm_yhfRl" role="lGtFl">
         <property role="ZRATv" value="true" />
         <property role="OXtK3" value="true" />
         <property role="p6zMq" value="0" />
@@ -9594,7 +9597,7 @@
       </node>
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOmrj" role="LiZbd">
-      <node concept="NIb$M" id="6Q6VLQdOmrk" role="NHrtj">
+      <node concept="NIb$M" id="5FGkm_yh7Ex" role="NHrtj">
         <ref role="NGbhZ" node="6Q6VLQdNDQs" />
       </node>
     </node>
@@ -9616,16 +9619,16 @@
       </node>
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOmur" role="LiRBU">
-      <node concept="LIFWc" id="6Q6VLQdOmuU" role="lGtFl">
+      <node concept="LIFWc" id="5FGkm_yhfRM" role="lGtFl">
         <property role="ZRATv" value="true" />
         <property role="OXtK3" value="true" />
         <property role="p6zMq" value="0" />
         <property role="p6zMs" value="0" />
-        <property role="LIFWd" value="empty_smartInterfaceRefChild" />
+        <property role="LIFWd" value="empty_smartInterfaceRefChild2" />
       </node>
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOmu_" role="LiZbd">
-      <node concept="NHrpJ" id="6t5h0S_5xpU" role="NIb$X">
+      <node concept="NHrpJ" id="6t5h0S_5xpU" role="SPX59">
         <ref role="NJ3e7" node="6Q6VLQdNDQs" />
       </node>
     </node>
@@ -9660,17 +9663,48 @@
       <node concept="3clFbH" id="6Q6VLQdOms2" role="3cqZAp" />
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOms3" role="LiRBU">
-      <node concept="LIFWc" id="6Q6VLQdOmtH" role="lGtFl">
+      <node concept="LIFWc" id="5FGkm_yhfQS" role="lGtFl">
         <property role="ZRATv" value="true" />
         <property role="OXtK3" value="true" />
         <property role="p6zMq" value="0" />
         <property role="p6zMs" value="0" />
-        <property role="LIFWd" value="empty_smartAbstractRefChild" />
+        <property role="LIFWd" value="empty_smartAbstractRefChild2" />
       </node>
     </node>
     <node concept="3wi0Fc" id="6Q6VLQdOms5" role="LiZbd">
-      <node concept="NIb$M" id="6Q6VLQdOms6" role="NHrtj">
+      <node concept="NIb$M" id="6Q6VLQdOms6" role="SPX9w">
         <ref role="NGbhZ" node="6Q6VLQdNDQs" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="5FGkm_yciFo">
+    <property role="3GE5qa" value="substitute.interface" />
+    <property role="TrG5h" value="Subst_Ref_Interface_SubconceptsMenu" />
+    <property role="3YCmrE" value="MPS-28897" />
+    <node concept="3clFbS" id="5FGkm_yciFp" role="LjaKd">
+      <node concept="2HxZob" id="5FGkm_yciFq" role="3cqZAp">
+        <node concept="1iFQzN" id="5FGkm_yciFr" role="3iKnsn">
+          <ref role="1iFR8X" to="ekwn:2XByp9s_j7f" resolve="Complete" />
+        </node>
+      </node>
+      <node concept="yd1bK" id="5FGkm_yciFs" role="3cqZAp">
+        <node concept="pLAjd" id="5FGkm_yciFt" role="yd6KS">
+          <property role="pLAjf" value="VK_ENTER" />
+        </node>
+      </node>
+    </node>
+    <node concept="3wi0Fc" id="5FGkm_yciFu" role="LiRBU">
+      <node concept="LIFWc" id="5FGkm_yhfQr" role="lGtFl">
+        <property role="ZRATv" value="true" />
+        <property role="OXtK3" value="true" />
+        <property role="p6zMq" value="0" />
+        <property role="p6zMs" value="0" />
+        <property role="LIFWd" value="empty_smartInterfaceRefChild3" />
+      </node>
+    </node>
+    <node concept="3wi0Fc" id="5FGkm_yciFw" role="LiZbd">
+      <node concept="NHrpJ" id="5FGkm_yhfPO" role="SPX3X">
+        <ref role="NJ3e7" node="6Q6VLQdNDQs" />
       </node>
     </node>
   </node>

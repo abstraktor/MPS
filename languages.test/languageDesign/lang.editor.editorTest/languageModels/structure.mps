@@ -1825,10 +1825,28 @@
       <property role="20kJfa" value="smartInterfaceRefChild" />
       <ref role="20lvS9" node="3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
     </node>
+    <node concept="1TJgyj" id="5FGkm_yeS0w" role="1TKVEi">
+      <property role="IQ2ns" value="6551701070978711584" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="smartInterfaceRefChild2" />
+      <ref role="20lvS9" node="3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    </node>
+    <node concept="1TJgyj" id="5FGkm_yeS6k" role="1TKVEi">
+      <property role="IQ2ns" value="6551701070978711956" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="smartInterfaceRefChild3" />
+      <ref role="20lvS9" node="3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    </node>
     <node concept="1TJgyj" id="3NV42KfjEtZ" role="1TKVEi">
       <property role="IQ2ns" value="4394123642851469183" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="smartAbstractRefChild" />
+      <ref role="20lvS9" node="3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+    </node>
+    <node concept="1TJgyj" id="5FGkm_yeSc9" role="1TKVEi">
+      <property role="IQ2ns" value="6551701070978712329" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="smartAbstractRefChild2" />
       <ref role="20lvS9" node="3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
     </node>
   </node>

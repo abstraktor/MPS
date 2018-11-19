@@ -7240,7 +7240,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="6Q6VLQdNIFe" role="3EZMnx">
-          <ref role="1NtTu8" to="68nn:3NV42KfjEtZ" resolve="smartAbstractRefChild" />
+          <ref role="1NtTu8" to="68nn:5FGkm_yeSc9" resolve="smartAbstractRefChild2" />
           <node concept="lj46D" id="6Q6VLQdNIFf" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -7294,7 +7294,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="6Q6VLQdNIEU" role="3EZMnx">
-          <ref role="1NtTu8" to="68nn:3NV42KfgU$h" resolve="smartInterfaceRefChild" />
+          <ref role="1NtTu8" to="68nn:5FGkm_yeS0w" resolve="smartInterfaceRefChild2" />
           <node concept="lj46D" id="6Q6VLQdNIEV" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -7304,11 +7304,57 @@
         </node>
         <node concept="l2Vlx" id="6Q6VLQdNIEX" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="5FGkm_ybBXC" role="3EZMnx">
+        <node concept="VPM3Z" id="5FGkm_ybBXD" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="lj46D" id="5FGkm_ybBXE" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="5FGkm_ybBXF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5FGkm_ybBXG" role="3EZMnx">
+          <property role="3F0ifm" value="manual interface ref child (subconcepts subst menu)" />
+          <node concept="ljvvj" id="5FGkm_ybBXH" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="5FGkm_ybBXI" role="3EZMnx">
+          <ref role="1NtTu8" to="68nn:5FGkm_yeS6k" resolve="smartInterfaceRefChild3" />
+          <node concept="lj46D" id="5FGkm_ybBXJ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="A1WHu" id="5FGkm_ybBXK" role="3vIgyS">
+            <ref role="A1WHt" node="5FGkm_ybASJ" resolve="smartRefLike_subconcepts_interface" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="5FGkm_ybBXL" role="2iSdaV" />
+      </node>
       <node concept="3F0ifn" id="6Q6VLQdNIFi" role="3EZMnx">
         <property role="3F0ifm" value="}" />
       </node>
       <node concept="l2Vlx" id="6Q6VLQdNIFj" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="3ICXOK" id="5FGkm_ybASJ">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="smartRefLike_subconcepts_interface" />
+    <ref role="aqKnT" to="68nn:3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    <node concept="1Qtc8_" id="5FGkm_ybASK" role="IW6Ez">
+      <node concept="3eGOoe" id="5FGkm_ybASL" role="1Qtc8$" />
+      <node concept="ulPW2" id="5FGkm_ybASM" role="1Qtc8A">
+        <node concept="2kknPI" id="5FGkm_ybASN" role="2ks2uz">
+          <ref role="2kkw0f" node="5FGkm_ybASO" resolve="smartRefLike_subconcepts_interface_Substitution" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Q6S24" id="5FGkm_ybASO">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="smartRefLike_subconcepts_interface_Substitution" />
+    <ref role="aqKnT" to="68nn:3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    <node concept="2VfDsV" id="5FGkm_yhvSt" role="3ft7WO" />
   </node>
 </model>
 
