@@ -649,8 +649,8 @@
     </node>
     <node concept="M6xJ_" id="7ERGDLdoDvD" role="lGtFl">
       <property role="Hh88m" value="smartReference" />
-      <node concept="trNpa" id="7ERGDLdoDvF" role="EQaZv">
-        <ref role="trN6q" node="f_TIwhg" resolve="ConceptDeclaration" />
+      <node concept="trNpa" id="6t5h0S_8DIH" role="EQaZv">
+        <ref role="trN6q" node="h0PkWnZ" resolve="AbstractConceptDeclaration" />
       </node>
     </node>
     <node concept="1TJgyj" id="7ERGDLdpEKR" role="1TKVEi">
