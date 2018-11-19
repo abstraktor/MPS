@@ -80,7 +80,9 @@
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1177327570013" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Substitute" flags="in" index="ucgPf" />
       <concept id="1134379236839" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedPropertyCell" flags="ng" index="uhnNJ" />
-      <concept id="7671875129586001610" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeSubstituteMenu" flags="ng" index="ulPW2" />
+      <concept id="7671875129586001610" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeSubstituteMenu" flags="ng" index="ulPW2">
+        <child id="6089045305656903122" name="menuReference" index="2ks2uz" />
+      </concept>
       <concept id="8478191136883534237" name="jetbrains.mps.lang.editor.structure.IExtensibleSubstituteMenuPart" flags="ng" index="upBLQ">
         <child id="8478191136883534238" name="features" index="upBLP" />
       </concept>
@@ -98,6 +100,7 @@
       </concept>
       <concept id="795210086017940429" name="jetbrains.mps.lang.editor.structure.ReadOnlyStyleClassItem" flags="lg" index="xShMh" />
       <concept id="8371900013785948369" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Parameter" flags="ig" index="2$S_p_" />
+      <concept id="6718020819487620876" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Default" flags="ng" index="A1WHr" />
       <concept id="6718020819487620873" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Named" flags="ng" index="A1WHu">
         <reference id="6718020819487620874" name="menu" index="A1WHt" />
       </concept>
@@ -7139,6 +7142,172 @@
         <node concept="2iRfu4" id="4Y8fggh5JFf" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="4Y8fggh5JEL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="Q6S24" id="3NV42KfkV_4">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="smartRefLike_interface_Substitution" />
+    <ref role="aqKnT" to="68nn:3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    <node concept="3XHNnq" id="3NV42KfkV_5" role="3ft7WO">
+      <ref role="3XGfJA" to="68nn:3NV42KfhMeF" resolve="target" />
+    </node>
+  </node>
+  <node concept="3ICXOK" id="3NV42KfkVG7">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="smartRefLike_interface" />
+    <ref role="aqKnT" to="68nn:3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    <node concept="1Qtc8_" id="3NV42KfkVG8" role="IW6Ez">
+      <node concept="3eGOoe" id="3NV42KfkVGc" role="1Qtc8$" />
+      <node concept="ulPW2" id="3NV42KfkVGf" role="1Qtc8A">
+        <node concept="2kknPI" id="3NV42KfkVGh" role="2ks2uz">
+          <ref role="2kkw0f" node="3NV42KfkV_4" resolve="smartRefLike_interface_Substitution" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Q6S24" id="3NV42KfkVKk">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="smartRefLike_abstract_Substitution" />
+    <ref role="aqKnT" to="68nn:3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+    <node concept="3XHNnq" id="3NV42KfkVKl" role="3ft7WO">
+      <ref role="3XGfJA" to="68nn:3NV42KfiUhj" resolve="target" />
+    </node>
+  </node>
+  <node concept="3ICXOK" id="3NV42KfkVKK">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="smartRefLike_abstract" />
+    <ref role="aqKnT" to="68nn:3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+    <node concept="1Qtc8_" id="3NV42KfkVKL" role="IW6Ez">
+      <node concept="3eGOoe" id="3NV42KfkVKP" role="1Qtc8$" />
+      <node concept="ulPW2" id="3NV42KfkVKS" role="1Qtc8A">
+        <node concept="2kknPI" id="3NV42KfkVKU" role="2ks2uz">
+          <ref role="2kkw0f" node="3NV42KfkVKk" resolve="smartRefLike_abstract_Substitution" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6Q6VLQdNIyF">
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <ref role="1XX52x" to="68nn:6Q6VLQdNInh" resolve="SubstInterfaceTestRoot" />
+    <node concept="3EZMnI" id="6Q6VLQdNICy" role="2wV5jI">
+      <node concept="3F0ifn" id="6Q6VLQdNICz" role="3EZMnx">
+        <property role="3F0ifm" value="root {" />
+        <node concept="ljvvj" id="6Q6VLQdNIC$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="6Q6VLQdNIEY" role="3EZMnx">
+        <node concept="VPM3Z" id="6Q6VLQdNIEZ" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="lj46D" id="6Q6VLQdNIF0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="6Q6VLQdNIF1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="6Q6VLQdNIF2" role="3EZMnx">
+          <property role="3F0ifm" value="smart abstract ref child (implicit menu)" />
+          <node concept="ljvvj" id="6Q6VLQdNIF3" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="6Q6VLQdNIF4" role="3EZMnx">
+          <ref role="1NtTu8" to="68nn:3NV42KfjEtZ" resolve="smartAbstractRefChild" />
+          <node concept="lj46D" id="6Q6VLQdNIF5" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="A1WHr" id="6Q6VLQdNIF6" role="3vIgyS">
+            <ref role="2ZyFGn" to="68nn:3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="6Q6VLQdNIF7" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6Q6VLQdNIF8" role="3EZMnx">
+        <node concept="VPM3Z" id="6Q6VLQdNIF9" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="lj46D" id="6Q6VLQdNIFa" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="6Q6VLQdNIFb" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="6Q6VLQdNIFc" role="3EZMnx">
+          <property role="3F0ifm" value="smart abstract ref child (explicit menu)" />
+          <node concept="ljvvj" id="6Q6VLQdNIFd" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="6Q6VLQdNIFe" role="3EZMnx">
+          <ref role="1NtTu8" to="68nn:3NV42KfjEtZ" resolve="smartAbstractRefChild" />
+          <node concept="lj46D" id="6Q6VLQdNIFf" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="A1WHu" id="6Q6VLQdNIFg" role="3vIgyS">
+            <ref role="A1WHt" node="3NV42KfkVKK" resolve="smartRefLike_abstract" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="6Q6VLQdNIFh" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6Q6VLQdNIEE" role="3EZMnx">
+        <node concept="VPM3Z" id="6Q6VLQdNIEF" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="lj46D" id="6Q6VLQdNIEG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="6Q6VLQdNIEH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="6Q6VLQdNIEI" role="3EZMnx">
+          <property role="3F0ifm" value="smart interface ref child (implicit menu)" />
+          <node concept="ljvvj" id="6Q6VLQdNIEJ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="6Q6VLQdNIEK" role="3EZMnx">
+          <ref role="1NtTu8" to="68nn:3NV42KfgU$h" resolve="smartInterfaceRefChild" />
+          <node concept="lj46D" id="6Q6VLQdNIEL" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="A1WHr" id="6Q6VLQdNIEM" role="3vIgyS">
+            <ref role="2ZyFGn" to="68nn:3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="6Q6VLQdNIEN" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6Q6VLQdNIEO" role="3EZMnx">
+        <node concept="VPM3Z" id="6Q6VLQdNIEP" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="lj46D" id="6Q6VLQdNIEQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="6Q6VLQdNIER" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="6Q6VLQdNIES" role="3EZMnx">
+          <property role="3F0ifm" value="smart interface ref child (explicit menu)" />
+          <node concept="ljvvj" id="6Q6VLQdNIET" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="6Q6VLQdNIEU" role="3EZMnx">
+          <ref role="1NtTu8" to="68nn:3NV42KfgU$h" resolve="smartInterfaceRefChild" />
+          <node concept="lj46D" id="6Q6VLQdNIEV" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="A1WHu" id="6Q6VLQdNIEW" role="3vIgyS">
+            <ref role="A1WHt" node="3NV42KfkVG7" resolve="smartRefLike_interface" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="6Q6VLQdNIEX" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="6Q6VLQdNIFi" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
+      <node concept="l2Vlx" id="6Q6VLQdNIFj" role="2iSdaV" />
     </node>
   </node>
 </model>

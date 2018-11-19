@@ -1697,5 +1697,140 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="PlHQZ" id="3NV42KfgTX2">
+    <property role="EcuMT" value="4394123642850746178" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstTestSmartInterfaceRef" />
+    <node concept="1TJgyj" id="3NV42KfhMeF" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642850976683" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3NV42KfhMeH" resolve="SubstAbstractChild" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfgU$u">
+    <property role="EcuMT" value="4394123642850748702" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstTestSmartAbstractRef1" />
+    <ref role="1TJDcQ" node="3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+    <node concept="1TJgyj" id="3NV42KfhMeM" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642850976690" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="3NV42KfhMeI" resolve="SubstConcreteChild1" />
+      <ref role="20ksaX" node="3NV42KfiUhj" resolve="target" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfgU$x">
+    <property role="EcuMT" value="4394123642850748705" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstTestSmartAbstractRef2" />
+    <ref role="1TJDcQ" node="3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+    <node concept="1TJgyj" id="3NV42KfhMeQ" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642850976694" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="3NV42KfhMeJ" resolve="SubstConcreteChild2" />
+      <ref role="20ksaX" node="3NV42KfiUhj" resolve="target" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfhMeH">
+    <property role="EcuMT" value="4394123642850976685" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstAbstractChild" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3NV42KfhMeI">
+    <property role="EcuMT" value="4394123642850976686" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstConcreteChild1" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="3NV42KfhMeH" resolve="SubstAbstractChild" />
+    <node concept="1TJgyi" id="6Q6VLQdNA3n" role="1TKVEl">
+      <property role="IQ2nx" value="7892258307225575639" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfhMeJ">
+    <property role="EcuMT" value="4394123642850976687" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstConcreteChild2" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="3NV42KfhMeH" resolve="SubstAbstractChild" />
+    <node concept="1TJgyi" id="6Q6VLQdNA3p" role="1TKVEl">
+      <property role="IQ2nx" value="7892258307225575641" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfiUh0">
+    <property role="EcuMT" value="4394123642851271744" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstTestSmartAbstractRef" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3NV42KfiUhj" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642851271763" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3NV42KfhMeH" resolve="SubstAbstractChild" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfjEp3">
+    <property role="EcuMT" value="4394123642851468867" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstTestSmartInterfaceRef1" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3NV42KfjEtQ" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642851469174" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20ksaX" node="3NV42KfhMeF" resolve="target" />
+      <ref role="20lvS9" node="3NV42KfhMeI" resolve="SubstConcreteChild1" />
+    </node>
+    <node concept="PrWs8" id="3NV42KfjEtO" role="PzmwI">
+      <ref role="PrY4T" node="3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3NV42KfjEtU">
+    <property role="EcuMT" value="4394123642851469178" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstTestSmartInterfaceRef2" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3NV42KfjEtV" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642851469179" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20ksaX" node="3NV42KfhMeF" resolve="target" />
+      <ref role="20lvS9" node="3NV42KfhMeJ" resolve="SubstConcreteChild2" />
+    </node>
+    <node concept="PrWs8" id="3NV42KfjEtX" role="PzmwI">
+      <ref role="PrY4T" node="3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Q6VLQdNInh">
+    <property role="EcuMT" value="7892258307225609681" />
+    <property role="3GE5qa" value="substitute.interfaceChild" />
+    <property role="TrG5h" value="SubstInterfaceTestRoot" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3NV42KfgU$h" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642850748689" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="smartInterfaceRefChild" />
+      <ref role="20lvS9" node="3NV42KfgTX2" resolve="SubstTestSmartInterfaceRef" />
+    </node>
+    <node concept="1TJgyj" id="3NV42KfjEtZ" role="1TKVEi">
+      <property role="IQ2ns" value="4394123642851469183" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="smartAbstractRefChild" />
+      <ref role="20lvS9" node="3NV42KfiUh0" resolve="SubstTestSmartAbstractRef" />
+    </node>
+  </node>
 </model>
 

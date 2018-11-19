@@ -23,6 +23,7 @@ import jetbrains.mps.smodel.constraints.ModelConstraints;
 import jetbrains.mps.util.IterableUtil;
 import org.apache.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.jetbrains.mps.openapi.language.SConcept;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
@@ -41,9 +42,13 @@ public class ReferenceScopeSubstituteMenuPart implements SubstituteMenuPart {
   private final SReferenceLink myReferenceLink;
 
   @NotNull
-  private final SConcept myConcept;
+  private final SAbstractConcept myConcept;
 
   public ReferenceScopeSubstituteMenuPart(@NotNull SConcept concept, @NotNull SReferenceLink referenceLink) {
+    this((SAbstractConcept) concept, referenceLink);
+  }
+
+  public ReferenceScopeSubstituteMenuPart(@NotNull SAbstractConcept concept, @NotNull SReferenceLink referenceLink) {
     myConcept = concept;
     myReferenceLink = referenceLink;
   }
@@ -86,7 +91,7 @@ public class ReferenceScopeSubstituteMenuPart implements SubstituteMenuPart {
   }
 
   @NotNull
-  protected final SConcept getConcept() {
+  protected final SAbstractConcept getConcept() {
     return myConcept;
   }
 

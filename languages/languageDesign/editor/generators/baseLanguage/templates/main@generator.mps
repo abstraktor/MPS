@@ -874,6 +874,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="2423417345669755629" name="whichError" index="1eyWvh" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -12081,6 +12084,9 @@
                     <ref role="37wK5l" to="1ctc:~Collectors.toList():java.util.stream.Collector" resolve="toList" />
                   </node>
                 </node>
+              </node>
+              <node concept="15s5l7" id="6Q6VLQdIn38" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: incompatible types: jetbrains.mps.openapi.editor.cells.SubstituteAction and java.lang.Object&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/7192154694570987550,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1185363855090]&quot;;" />
               </node>
             </node>
           </node>
@@ -47872,7 +47878,7 @@
                     <ref role="3cqZAo" node="Cr174ugDPL" resolve="referencedNode" />
                   </node>
                   <node concept="1rXfSq" id="2jhpiNnTl5W" role="37wK5m">
-                    <ref role="37wK5l" to="qtqj:~ReferenceScopeSubstituteMenuPart.getConcept():org.jetbrains.mps.openapi.language.SConcept" resolve="getConcept" />
+                    <ref role="37wK5l" to="qtqj:~ReferenceScopeSubstituteMenuPart.getConcept():org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getConcept" />
                   </node>
                   <node concept="1rXfSq" id="2jhpiNnTm3s" role="37wK5m">
                     <ref role="37wK5l" to="qtqj:~ReferenceScopeSubstituteMenuPart.getReferenceLink():org.jetbrains.mps.openapi.language.SReferenceLink" resolve="getReferenceLink" />
@@ -47979,8 +47985,8 @@
             </node>
             <node concept="37vLTG" id="4Yr0I2qbdEq" role="3clF46">
               <property role="TrG5h" value="concept" />
-              <node concept="3uibUv" id="4Yr0I2qbeew" role="1tU5fm">
-                <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+              <node concept="3uibUv" id="3NV42KflDkU" role="1tU5fm">
+                <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
             </node>
             <node concept="37vLTG" id="4Yr0I2qbehW" role="3clF46">
@@ -48534,6 +48540,9 @@
                   <ref role="37wK5l" to="1ctc:~Collectors.toList():java.util.stream.Collector" resolve="toList" />
                 </node>
               </node>
+            </node>
+            <node concept="15s5l7" id="6Q6VLQdImwu" role="lGtFl">
+              <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: incompatible types: jetbrains.mps.openapi.editor.cells.SubstituteAction and java.lang.Object&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/7192154694570987550,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1185363855090]&quot;;" />
             </node>
           </node>
         </node>
